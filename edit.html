@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> SBIT TPO EditDetails </title>
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<link rel="stylesheet" type="text/css" href="./CssFiles/navstyle.css">
+  <link rel="stylesheet" href="CssFiles/bootstrap.css">
+  <link rel="stylesheet" href="CssFiles/styles.css">
+	<style>
+		body{
+			font-family: Arial, Helvetica, sans-serif;
+		}
+        ::placeholder{
+            color: black !important;
+            font-weight: bold !important;
+        }
+	</style>
+</head>
+
+<body>
+    <nav class="navbar navbar1">
+        <img src="./images/logo.jpg" class="img-fluid icon" style="margin-left:10px;margin-right: auto; width:50%; height: auto;">
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links navbar1">
+      <ul>
+        <li><a href="index.html">Placements</a></li>
+        <li><a href="trainings.html">Trainings</a></li>
+        <li><a href="jobportal.html">Job Portal</a></li>
+        <li><a href="edit.html" class="active1">Edit Details</a></li>
+        <li><a href="Login.html">Logout</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="formContainer" class="" style="margin: auto;">
+    <form id="edit" name="edit" title="edit form" role="form" method="post" action="register.php">
+      <br>
+      <h2 style="text-align: center;margin-top: 10px; color: #0000FF;font-family: 'Zen Kurenaido'">EDIT DETAILS</h2><br>
+      <div style="margin-left: 20px;margin-right: 20px;">
+          <div class="form-group">
+              <input type="text" class="form-control medium-text-field" placeholder="Hall Ticket No" autofocus="autofocus" name="htno" id="email" required="" value="" aria-label="HtNo">
+          </div>
+          <div class="form-group">
+              <input type="text" class="form-control medium-text-field" placeholder="Name" name="name" id="htno" required="" value="" aria-label="Name">
+          </div>
+          <div class="form-group">
+              <input type="email" class="form-control medium-text-field" placeholder="Email" name="email" id="htno" required="" value="" aria-label="Email">
+          </div>
+          <div class="form-group">
+              <input type="text" class="form-control medium-text-field" placeholder="Branch" name="branch" id="htno" required="" value="" aria-label="Branch">
+          </div>
+          <div class="form-group">
+              <input type="text" class="form-control medium-text-field" placeholder="Phone" name="phno" id="htno" required="" value="" aria-label="Phone Number">
+          </div>
+          <div class="form-group">
+              <input type="number" class="form-control medium-text-field" placeholder="Percentage" name="percentage" id="htno" required="" value="" aria-label="Percentage">
+          </div>
+          <div class="form-group">
+              <input type="password" class="form-control medium-text-field" placeholder="Password" name="password" id="htno" required="" value="" aria-label="Password">
+          </div>
+              <div class="pull-right">
+                  <button type="submit" name="register" value="register" class="btn btn-primary" id="loginBtn" aria-label="Login">Update</button>&nbsp;&nbsp;
+              </div>
+          </div>
+      </div>
+  </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
